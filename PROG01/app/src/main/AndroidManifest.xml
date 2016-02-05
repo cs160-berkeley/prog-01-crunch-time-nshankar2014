@@ -18,10 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pushups" />
-        <activity android:name=".Situps" />
-        <activity android:name=".Squats" />
-        <activity android:name=".LegLifts" />
         <activity android:name=".ExerciseCloseup"></activity>
     </application>
 

@@ -7,6 +7,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.neilshankar.prog01.ExerciseCloseup">
+    tools:context="com.neilshankar.PROG01.ExerciseCloseup"
+    android:background="#ff4062">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many push-ups did you do?"
+        android:id="@+id/closeupTitle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:width="300dp"
+        android:layout_below="@+id/closeupTitle"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
 
 </RelativeLayout>
