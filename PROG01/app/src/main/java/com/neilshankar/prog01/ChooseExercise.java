@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.util.Log;
+import android.content.Intent;
 
 public class ChooseExercise extends AppCompatActivity {
 
@@ -40,5 +41,9 @@ public class ChooseExercise extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void gotoPushups(View v) {
+        ChooseExercise.this.startActivity(new Intent(this, Pushups.class));
     }
 }
