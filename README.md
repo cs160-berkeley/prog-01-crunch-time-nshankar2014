@@ -1,10 +1,10 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+This is a calorie converter app for Android 5.0.1 and up.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Neil Shankar ([nshankar@berkeley.edu](mailto:nshankar@berkeley.edu))
 
 ## Demo Video
 
