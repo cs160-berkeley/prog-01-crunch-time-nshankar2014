@@ -10,17 +10,19 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".ChooseExercise"
-            android:label="@string/app_name">
-        </activity>
-
+            android:label="@string/app_name" />
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Pushups"></activity>
+        <activity android:name=".Pushups" />
+        <activity android:name=".Situps" />
+        <activity android:name=".Squats" />
+        <activity android:name=".LegLifts" />
+        <activity android:name=".ExerciseCloseup"></activity>
     </application>
 
 </manifest>
