@@ -13,27 +13,92 @@
     tools:context="com.neilshankar.prog01.ChooseExercise"
     tools:showIn="@layout/activity_choose_exercise">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Which type of exercise did you do?"
-        android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#ff4062"
-        android:textSize="9pt"
-        />
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        >
 
-    <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:id="@+id/pushups"
-        android:background="@drawable/pushups"
-        android:clickable="true"
-        android:cropToPadding="false"
-        android:layout_below="@+id/textView"
-        android:layout_alignStart="@+id/textView"
-        android:onClick="gotoPushups"
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which type of exercise did you do?"
+            android:id="@+id/textView"
+            android:textColor="#ff4062"
+            android:textSize="9pt"
+            android:textAlignment="center"
+            />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top"
+            android:layout_gravity="top"
+            >
+
+            <ImageButton
+                android:id="@+id/pushups"
+                android:src="@drawable/pushups"
+                android:background="@null"
+                android:clickable="true"
+                android:onClick="gotoPushups"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                />
+
+            <ImageButton
+                android:id="@+id/situps"
+                android:src="@drawable/situps"
+                android:background="@null"
+                android:clickable="true"
+                android:onClick="gotoSitups"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top"
+            android:layout_gravity="top"
+            >
+
+            <ImageButton
+                android:id="@+id/pushups"
+                android:src="@drawable/pushups"
+                android:background="@null"
+                android:clickable="true"
+                android:onClick="gotoPushups"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                />
+
+            <ImageButton
+                android:id="@+id/situps"
+                android:src="@drawable/situps"
+                android:background="@null"
+                android:clickable="true"
+                android:onClick="gotoSitups"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
 </RelativeLayout>
