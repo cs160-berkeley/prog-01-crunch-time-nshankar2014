@@ -3,7 +3,10 @@ package com.neilshankar.prog01;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.EditText;
 
 public class ExerciseCloseup extends AppCompatActivity {
 
@@ -13,7 +16,7 @@ public class ExerciseCloseup extends AppCompatActivity {
         setContentView(R.layout.activity_exercise_closeup);
 
         Intent it = getIntent();
-        String type = it.getStringExtra("type");
+        final String type = it.getStringExtra("type");
         TextView title = (TextView)findViewById(R.id.closeupTitle);
         TextView minutes = (TextView)findViewById(R.id.minutes);
         minutes.setText("minutes");
@@ -38,6 +41,15 @@ public class ExerciseCloseup extends AppCompatActivity {
             title.setText("For how long did you climb stairs?");
         }
 
-        
+        Button enter = (Button)findViewById(R.id.convert);
+        enter.setClickable(true);
+        enter.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View clicked) {
+                Intent it = new Intent(ExerciseCloseup.this, CaloriesBurned.class);
+                it.putExtra("type", type);
+                it.putExtra("num", "" + ((EditText)findViewById(R.id.value)).getText());
+                ExerciseCloseup.this.startActivity(it);
+            }
+        });
     }
 }

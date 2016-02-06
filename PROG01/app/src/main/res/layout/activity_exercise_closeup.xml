@@ -25,7 +25,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/value"
         android:width="300dp"
         android:textColor="#ff4062"
         android:layout_centerVertical="true"
@@ -36,19 +36,6 @@
         android:hint="00"
         android:textColorHint="#fc95b0"
         />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="#ff4062"
-        android:textColor="#ffffff"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:layout_marginBottom="10dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -64,5 +51,18 @@
         android:textSize="9pt"
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/convert"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ff4062"
+        android:textColor="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dp" />
 
 </RelativeLayout>
