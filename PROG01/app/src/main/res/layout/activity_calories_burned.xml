@@ -31,4 +31,28 @@
         android:textSize="9pt"
         android:layout_below="@+id/numCalories"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fun fact!"
+        android:id="@+id/textView4"
+        android:textColor="#facdab"
+        android:textAlignment="center"
+        android:textSize="7pt"
+        android:layout_above="@+id/funfact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can burn 140 calories by doing 50 sit-ups or 230 jumping jacks, or by jogging for 20 minutes."
+        android:id="@+id/funfact"
+        android:textColor="#facdab"
+        android:textAlignment="center"
+        android:textSize="7pt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

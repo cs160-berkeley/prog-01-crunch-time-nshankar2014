@@ -22,9 +22,11 @@ public class ExerciseCloseup extends AppCompatActivity {
         minutes.setText("minutes");
 
         if (type.equals("push-ups") || type.equals("sit-ups") || type.equals("squats")
-                || type.equals("jumping jacks") || type.equals("pull-ups")) {
+                || type.equals("pull-ups")) {
             title.setText("How many " + type + " did you do?");
             minutes.setText("");
+        } else if (type.equals("jumping jacks")) {
+            title.setText("For how long did you do jumping jacks?");
         } else if (type.equals("leg lifts")) {
             title.setText("For how long did you do leg lifts?");
         } else if (type.equals("planks")) {

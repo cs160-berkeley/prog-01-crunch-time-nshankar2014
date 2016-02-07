@@ -17,6 +17,10 @@ public class CaloriesBurned extends AppCompatActivity {
         final String type = it.getStringExtra("type");
 
         double burned = 0.0;
+        double numPushups = 0.0;
+        double numSitups = 0.0;
+        double numJumpingJacks = 0.0;
+        double numJogging = 0.0;
 
         if (type.equals("push-ups")) {
             burned = (100.0/350.0) * num;
@@ -46,5 +50,32 @@ public class CaloriesBurned extends AppCompatActivity {
 
         TextView numCalories = (TextView)findViewById(R.id.numCalories);
         numCalories.setText("" + (int)burned);
+
+        numPushups = burned/(100.0/350.0);
+        numSitups = burned/0.5;
+        numJumpingJacks = burned/10.0;
+        numJogging = burned/(100.0/12.0);
+
+        TextView funFact = (TextView)findViewById(R.id.funfact);
+        String alternative = "You can burn " + (int)burned + " calories by doing ";
+        if (type.equals("push-ups")) {
+            alternative += (int)numSitups + " sit-ups or " + (int)numJumpingJacks + " minutes of jumping jacks, " +
+                    "or by jogging for " + (int)numJogging + " minutes.";
+        } else if (type.equals("sit-ups")) {
+            alternative += (int)numPushups + " push-ups or " + (int)numJumpingJacks + " minutes of jumping jacks, " +
+                    "or by jogging for " + (int)numJogging + " minutes.";
+        } else if (type.equals("jumping jacks")) {
+            alternative += (int)numPushups + " push-ups or " + (int)numSitups + " sit-ups, " +
+                    "or by jogging for " + (int)numJogging + " minutes.";
+        } else if (type.equals("jogging")) {
+            alternative += (int)numPushups + " push-ups, " + (int)numSitups + " sit-ups, or " +
+                    (int)numJumpingJacks + " minutes of jumping jacks.";
+        } else {
+            alternative += (int)numPushups + " push-ups, " + (int)numSitups + " sit-ups, or " +
+                    (int)numJumpingJacks + " minutes of jumping jacks, or by jogging for " + (int)numJogging +
+                    " minutes.";
+        }
+        funFact.setText(alternative);
+
     }
 }
