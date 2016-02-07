@@ -20,7 +20,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ExerciseCloseup" />
-        <activity android:name=".CaloriesBurned"></activity>
+        <activity android:name=".CaloriesBurned" />
+        <activity android:name=".ChooseFeature" />
+        <activity android:name=".Goal" />
+        <activity android:name=".GoalResults"></activity>
     </application>
 
 </manifest>

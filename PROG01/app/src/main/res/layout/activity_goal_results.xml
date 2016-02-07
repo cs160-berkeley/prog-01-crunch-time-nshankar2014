@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neilshankar.prog01.GoalResults"
+    android:background="#f2f2f2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to burn 100 calories"
+        android:id="@+id/title"
+        android:textColor="#ffffff"
+        android:background="#ff4062"
+        android:paddingLeft="2dp"
+        android:paddingTop="10dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="9pt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Push-ups"
+        android:id="@+id/textView11"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numPushups"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sit-ups"
+        android:id="@+id/textView14"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Squats"
+        android:id="@+id/textView13"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leg lifts"
+        android:id="@+id/textView15"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planks"
+        android:id="@+id/textView16"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumping jacks"
+        android:id="@+id/textView17"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pull-ups"
+        android:id="@+id/textView18"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cycling"
+        android:id="@+id/textView19"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Walking"
+        android:id="@+id/textView20"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogging"
+        android:id="@+id/textView21"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swimming"
+        android:id="@+id/textView22"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView21"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stair climbing"
+        android:id="@+id/textView23"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/textView22"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numSitups"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numSquats"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numLeglifts"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numPlanks"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numJumpingJacks"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numPullups"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_above="@+id/textView19"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numCycling"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numWalking"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numJogging"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numSwimming"
+        android:textColor="#ff4062"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView22"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reps"
+        android:id="@+id/numStairClimbing"
+        android:textColor="#8682ad"
+        android:textSize="9pt"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_alignEnd="@+id/title" />
+
+</RelativeLayout>
