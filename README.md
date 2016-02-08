@@ -8,11 +8,15 @@ Neil Shankar ([nshankar@berkeley.edu](mailto:nshankar@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [https://youtu.be/zxYNNdUmVW8] (https://youtu.be/zxYNNdUmVW8)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/PROG01-03.jpg" alt="Screenshot1"/>
+<img src="screenshots/PROG01-04.jpg" alt="Screenshot2"/>
+<img src="screenshots/PROG01-05.jpg" alt="Screenshot3"/>
+<img src="screenshots/PROG01-06.jpg" alt="Screenshot4"/>
+<img src="screenshots/PROG01-07.jpg" alt="Screenshot5"/>
 
 ## Acknowledgments
 
